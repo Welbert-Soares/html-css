@@ -9,7 +9,9 @@
    <h1>Imagem Flexível</h1>
    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F601 </p>
     <picture>
-        <img src="imagens/imagem-fria.jpg" alt="imagem_flexivel">
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="imagem_flexivel">
     </picture>
 </body>
 </html>
