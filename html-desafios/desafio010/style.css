@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('font/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(144, 238, 189);
+}   
+#principal {
+    background: linear-gradient(to top, rgb(16, 80, 48), rgb(134, 216, 168));
+    color: white;
+    text-align: center;
+    padding: auto;
+}
+#principal h1 {
+    padding: 25px;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    
+
+}
+#principal p {
+    font-size: 0.97em;
+    padding: 5px 1px 10px 1px;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+#navbar {
+    padding: auto;
+    text-align:justify;
+    color: #fff;
+
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: right;
+    padding: 7px 10px;
+}
+#navbar ul li {
+    display: flex;
+    margin-right: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7em;
+}
+#navbar ul li a:hover {
+    color: #000;
+}
+.container {  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px ;
+    background-color: #fff;
+}   
+    #intro h1 {
+        font-family: 'IDroid';
+        color: #216b4d;
+        font-size: 1.8em;
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+    #intro p {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: justify;
+        text-indent: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    #desenv1  h2 {
+        font-family: 'IDroid';
+        background: linear-gradient(to right, #38ca9947,#fff);
+        color: #216b4d;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+    #desenv1 p {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: justify;
+        text-indent: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    #img1 img {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    #desenv2  h2 {
+        font-family: 'IDroid';
+        background: linear-gradient(to right, #38ca9947,#fff);
+        color: #216b4d;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 0px 0px 10px 0px;
+    }
+    #desenv2 p {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: justify;
+        text-indent: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    #img2 img {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    #img3  {
+        align-items: center;
+    }
