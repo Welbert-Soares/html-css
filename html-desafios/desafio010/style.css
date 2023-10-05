@@ -25,14 +25,14 @@ html, body {
 }
 #principal h1 {
     padding: 25px;
-    font-size: 1.9em;
+    font-size: 1.9rem;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
     
 
 }
 #principal p {
-    font-size: 0.97em;
+    font-size: 0.97rem;
     padding: 5px 1px 10px 1px;
     text-shadow: 1px 1px 1px #000;
     
@@ -52,13 +52,13 @@ html, body {
 #navbar ul li {
     display: flex;
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 #navbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 0.7em;
+    font-size: 0.7rem;
 }
 #navbar ul li a:hover {
     color: #000;
@@ -69,59 +69,155 @@ html, body {
     margin-right: auto;
     padding: 20px ;
     background-color: #fff;
-}   
+}  
+.container p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 25px;
+    margin: 20px 0px 0px 0px;
+} 
     #intro h1 {
         font-family: 'IDroid';
         color: #216b4d;
-        font-size: 1.8em;
+        font-size: 1.8rem;
         font-weight: bold;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #intro p {
-        font-size: 0.9em;
+        font-size: 0.9rem;
         font-weight: bold;
         text-align: justify;
         text-indent: 25px;
-        margin: 0px 0px 10px 0px;
     }
     #desenv1  h2 {
         font-family: 'IDroid';
         background: linear-gradient(to right, #38ca9947,#fff);
         color: #216b4d;
-        font-size: 1.3em;
+        font-size: 1.3rem;
         font-weight: bold;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #desenv1 p {
-        font-size: 0.9em;
+        font-size: 0.9rem;
         font-weight: bold;
         text-align: justify;
         text-indent: 25px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #img1 img {
         width: 100%;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #desenv2  h2 {
         font-family: 'IDroid';
         background: linear-gradient(to right, #38ca9947,#fff);
         color: #216b4d;
-        font-size: 1.3em;
+        font-size: 1.3rem;
         font-weight: bold;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #desenv2 p {
-        font-size: 0.9em;
+        font-size: 0.9rem;
         font-weight: bold;
         text-align: justify;
         text-indent: 25px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #img2 img {
         width: 100%;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     #img3  {
-        align-items: center;
+        text-align: center;
     }
+    #img3 img {
+    
+        height: 142px;
+        margin: 0px 0px 20px 0px;
+    }
+    #bgvideo {
+        background-color: #216b4d;
+        text-align: center;
+        padding: 10px;
+    }
+    #bgvideo iframe {
+        width: 95%;
+    }
+    #extra {
+        border-radius: 2%;
+        box-shadow: 0px 0px 5px #80808077;
+        margin: 20px 0px 20px 0px;
+    }
+    #bgHeaderExtra {
+        background-color: #2bb665;
+        box-shadow: 0px 0px 5px #80808077;
+        border-radius: 3% 3% 0px 0px;
+    }
+    #bgHeaderExtra h3 {
+        color: #fff;
+        font-size: 1rem;
+        padding: 10px;
+    }
+    #bgArticleExtra {
+        background-color: #abdfcab4;
+        padding: 10px;
+        border-radius: 0px 0px 2% 2%;
+    }
+    #bgArticleExtra p {
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-align: justify;
+        text-indent: 25px;
+        margin: 0px 0px 20px 0px;
+    }
+    .listas {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 20px 0px;
+    }
+    #list1 {
+        width: 45%;
+    }
+    #list1 ul {
+        list-style: none;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    #list1 ul li a {
+        color: #000;
+    }
+    #list1 ul li a:hover {
+        color: #2bb665;
+    }   
+    #list2 {
+        width: 45%;
+    }
+    #list2 ul {
+        list-style: none;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    #list2 ul li a {
+        color: #000;
+    }
+    #list2 ul li a:hover {
+        color: #2bb665;
+    }
+    Footer {
+        background-color: #216b4d;
+        color: #fff;
+        text-align: center;
+        padding: 5PX;
+    }
+    Footer p a {
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: aquamarine;
+    }
+    Footer p a:hover {
+        color: #fff;
+    }
+
+/* Path: html-desafios/desafio010/index.html */
